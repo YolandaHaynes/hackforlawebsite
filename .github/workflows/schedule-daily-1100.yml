@@ -15,7 +15,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.TESTING_GHAs }}
+        token: ${{ secrets.MY_TEST_GHA }}
     
     - name: GitHub Action for install npm dependencies
       uses: bahmutov/npm-install@v1
